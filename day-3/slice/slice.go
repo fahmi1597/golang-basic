@@ -1,28 +1,17 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	var arrMonths = [...]string{
-		"January",
-		"February",
-		"Maret",
-		"April",
-		"Mei",
-		"Juni",
-		"Juli",
-		"Agustus",
-		"September",
-		"November",
-		"Desember",
-	}
-
-	sliceArr1 := arrMonths[4:7]
-	fmt.Print("Slice : ")
-	fmt.Println(sliceArr1)
-	fmt.Print("Length : ")
-	fmt.Println(len(sliceArr1))
-	fmt.Print("Capacity : ")
-	fmt.Println(cap(sliceArr1))
+	//array
+	arr1 := [3]int{1, 2, 3}
+	var arr2 = [...]int{1, 2, 3}
+	fmt.Println(arr1)
+	fmt.Println(arr2)
+	//slice
+	slice := []int{1, 2, 3}
+	fmt.Println(slice)
 
 }
