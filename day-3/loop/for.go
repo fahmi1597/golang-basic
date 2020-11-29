@@ -23,7 +23,7 @@ func main() {
 	// for i := 0; i < len(slice); i++ {
 	// 	fmt.Println("Index ", i, ": ", slice[i])
 	// }
-	//cara 2 mirip for range | mirip foreach
+	// cara 2 mirip for range | mirip foreach
 	// for idx, value := range slice {
 	// 	fmt.Println("Index ", idx, "= ", value)
 	// }
@@ -33,7 +33,6 @@ func main() {
 
 	person := map[string]string{
 		"nama":    "Fahmi",
-		"npm":     "52416483",
 		"jurusan": "Teknik Informatika",
 	}
 

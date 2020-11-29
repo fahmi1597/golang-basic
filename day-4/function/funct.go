@@ -11,25 +11,28 @@ func setFullName(firstName string, lastName string) {
 }
 
 func getFullName() (string, string) {
-	return "Fahmi", "Jamaludin"
+	return "Fahmi", "J"
 }
 
 func getFullName_() (firstName, lastName string) {
 	firstName = "Fahmi"
-	lastName = "Jamaludin"
+	lastName = "J"
 	return
 }
 
 func main() {
 	// function tanpa parameter
 	iamf()
-	// function + parameter
-	lastName := "Jamaludin"
+
+	// function + parameter (fullname, lastname)
+	lastName := "J"
 	setFullName("Fahmi", lastName)
-	// function return value-multivalue
+	
+	// function multivalue return 
 	firstName, lastName := getFullName()
-	fmt.Println("Get Full name :", firstName, lastName)
-	// function return value-multivalue
+	fmt.Println("Get full name :", firstName, lastName)
+	
+	// function multivalue return 
 	a, b := getFullName_()
 	fmt.Println(a, b)
 

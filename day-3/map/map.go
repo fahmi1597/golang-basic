@@ -6,7 +6,6 @@ func main() {
 
 	person := map[string]string{
 		"nama":    "Fahmi",
-		"npm":     "52416483",
 		"jurusan": "Teknik Informatika",
 	}
 

@@ -12,7 +12,8 @@ type Sample struct {
 func main() {
 	sample := Sample{"Eko"}
 	sampleType := reflect.TypeOf(sample)
-	//structField := sampleType.Field()
+	
+	// structField := sampleType.Field()
 	fmt.Println(sampleType.NumField())
 	fmt.Println(sampleType.Field(0).Name)
 	fmt.Println(sampleType.Field(0).Tag.Get("required"))

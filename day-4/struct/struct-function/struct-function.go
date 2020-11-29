@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// Mobil is orang
+// Mobil is not orang
 type Mobil struct {
 	Merk  string
 	Tahun string
@@ -25,6 +25,7 @@ func main() {
 		Merk:  "BMW",
 		Tahun: "2000",
 	}
+
 	// getInfo(Mobil1)
 	// maju(Mobil1)
 	mobil1.operator("fahmi")

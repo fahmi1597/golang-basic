@@ -23,8 +23,9 @@ func IsValid(data interface{}) bool {
 }
 
 func main() {
-	sample := Sample{"Eko"}
+	sample := Sample{"Iku"}
 	sampleType := reflect.TypeOf(sample)
+
 	//structField := sampleType.Field()
 	fmt.Println(sampleType.NumField())
 	fmt.Println(sampleType.Field(0).Name)

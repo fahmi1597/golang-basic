@@ -14,7 +14,7 @@ func main() {
 		fmt.Println("Males")
 	}
 
-	//short switch
+	// short switch
 	switch newName := name[1:3]; len(newName) < len(name) {
 	case true:
 		fmt.Println("Ok", newName)

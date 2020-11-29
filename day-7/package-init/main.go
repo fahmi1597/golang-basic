@@ -1,9 +1,9 @@
 package main
 
 import (
-	"basic-golang/day-7/database"
 	"fmt"
-)
+	"golang-basic/day-7/package-init/database"
+	)
 
 func main() {
 	result := database.GetDatabase()

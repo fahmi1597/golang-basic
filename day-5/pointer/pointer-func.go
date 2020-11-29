@@ -23,12 +23,4 @@ func main() {
 	fmt.Println(*ptrNameServer1)
 }
 
-// 	fmt.Println("Name Server 1 Memory Address")
-// 	fmt.Println(&nameServer1.IP)
-// 	fmt.Println("Name Server 1 Value")
-// 	fmt.Println(nameServer1.IP)
-// 	fmt.Println("Name Server 2 Memory Address")
-// 	fmt.Println(&nameServer2.IP)
-// 	fmt.Println("Name Server 2 Value")
-// 	fmt.Println(nameServer2.IP)
-// }
+}

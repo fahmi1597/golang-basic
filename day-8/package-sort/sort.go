@@ -26,9 +26,9 @@ func (value UserSlice) Swap(i, j int) {
 
 func main() {
 	users := []User{
-		{"Fahmi", 26},
-		{"Jamaludin", 25},
-		{"Mas'ud", 21},
+		{"Budi", 26},
+		{"Buda", 25},
+		{"Badu", 21},
 	}
 
 	sort.Sort(UserSlice(users))

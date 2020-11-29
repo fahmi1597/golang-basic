@@ -28,7 +28,7 @@ func callPerson(person Person) {
 func main() {
 	fahmi := Boy{
 		Nama: "Fahmi",
-		Umur: 23,
+		Umur: 1,
 	}
 	callPerson(fahmi)
 }
